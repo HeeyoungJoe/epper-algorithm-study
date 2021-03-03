@@ -27,5 +27,32 @@
     <ClCompile Include="page1_number9.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="page4_number2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page4_number1_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page4_number4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page5_zip.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page7_number1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="papge7_number2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page7_number3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page8_number5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page8_number6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

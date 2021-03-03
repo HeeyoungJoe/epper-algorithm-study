@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 
 //beginning should always be ( 
@@ -21,6 +21,30 @@
 //나머지는 밖이면 k+1갈래, 안이면 왼인우 5갈래... 게다가 안에 또 안에 있을 수도 있단 말야...?
 
 //n 겹으로 포함 두 개 이상 k가 있고, 적어도 nk개는 그 안에 있어야하고, 나머지...
-void make_pairs(int n) {
-
+int make_pairs(int n) {
+//그냥 카탈란 수면 되었다.
+//integral을 efficient하가 가능?
+	
+	int solution = 1;
+	for (int i = 2*n; i > n+1; i--) { //(2n)!/(n+1)!
+		solution *= i;
+	}
+	for (int i = 1; i < n + 1; i++) {
+		solution /= i;
+	}
+	return solution;
 }
+void main() {
+	char buffer[100];
+	printf("how many pairs of parentheses?:\n");
+	fgets(buffer, 100, stdin);
+
+	int pairs = 0;
+	for (int index=0; buffer[index] != '\n'; index++) {
+		pairs =pairs+ (int)buffer[index]-(int)('0');
+		pairs *= 10;
+	}
+	pairs /= 10;
+	printf("\n number of appropriate expressions are:%d", make_pairs(pairs ));
+
+}*/
