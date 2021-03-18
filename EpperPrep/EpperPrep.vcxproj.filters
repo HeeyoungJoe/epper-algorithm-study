@@ -42,7 +42,7 @@
     <ClCompile Include="page7_number1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="papge7_number2.c">
+    <ClCompile Include="page7_number2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="page7_number3.c">
@@ -52,6 +52,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="page8_number6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page8_number7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="page9_number8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers_도서관_좌석_문제.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

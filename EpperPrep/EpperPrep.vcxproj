@@ -163,7 +163,10 @@
     <ClCompile Include="page7_number3.c" />
     <ClCompile Include="page8_number5.c" />
     <ClCompile Include="page8_number6.c" />
-    <ClCompile Include="papge7_number2.c" />
+    <ClCompile Include="page8_number7.c" />
+    <ClCompile Include="page7_number2.c" />
+    <ClCompile Include="page9_number8.c" />
+    <ClCompile Include="programmers_도서관_좌석_문제.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
